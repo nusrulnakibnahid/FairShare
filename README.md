@@ -33,8 +33,8 @@ BillSplitter is built using the following web technologies:
 
 
 ## 📸 Screenshots
+![alt text](image.png)
 
-![alt text](127.0.0.1_5500_index.html.png)
 
 ## 💡 Future Enhancements
 

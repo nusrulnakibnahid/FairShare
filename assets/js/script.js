@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tip = (bill * selectedTip) / 100;
         const total = (bill + tip) / people;
 
-        tipAmount.value = `$${(tip / people).toFixed(2)}`;
-        totalAmount.value = `$${total.toFixed(2)}`;
+        tipAmount.value = `৳${(tip / people).toFixed(2)}`;
+        totalAmount.value = `৳${total.toFixed(2)}`;
     }
 });
