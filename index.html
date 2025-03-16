@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairShare</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FairShare</h1>
+        <div class="split-container">
+            <div class="left-box">
+                <div class="form-group">
+                    <label for="billAmount" class="form-label">Bill</label>
+                    <input type="number" class="form-control" id="billAmount" placeholder="0">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Select Tip %</label>
+                    <div class="btn-group">
+                        <button type="button" class="btn" data-tip="6">6%</button>
+                        <button type="button" class="btn" data-tip="10">10%</button>
+                        <button type="button" class="btn" data-tip="15">15%</button>
+                        <button type="button" class="btn" data-tip="25">25%</button>
+                        <button type="button" class="btn" data-tip="50">50%</button>
+                        <button type="button" class="btn" id="customTip">Custom</button>
+                    </div>
+                    <input type="number" class="form-control d-none" id="customTipInput" placeholder="Custom %">
+                </div>
+                <div class="form-group">
+                    <label for="numPeople" class="form-label">Number of People</label>
+                    <input type="number" class="form-control" id="numPeople" placeholder="0">
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="result-display">
+                    <label for="tipAmount">Tip Amount</label>
+                    <input type="text" id="tipAmount" value="৳0.00" readonly>
+                </div>
+                <div class="result-display">
+                    <label for="totalAmount">Total</label>
+                    <input type="text" id="totalAmount" value="৳0.00" readonly>
+                </div>
+                <button class="btn" id="resetBtn">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
